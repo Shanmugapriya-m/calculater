@@ -1,0 +1,47 @@
+.calc{
+    width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10 0px;
+}
+
+input:not(.text){
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+input:hover:not(.text.op){
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.op{
+    color: olivedrab;
+}
+.op:hover{
+    background-color: black;
+    color: olivedrab;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.output .text{
+    width: 200px;
+    height: 20px;
+    padding: 0 20px 0 0;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.calc .equal{
+    width: 150px;
+    border-radius: 20px;
+}
